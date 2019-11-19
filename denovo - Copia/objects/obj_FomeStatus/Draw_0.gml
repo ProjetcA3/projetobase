@@ -4,6 +4,6 @@ draw_set_font(f0);
 
 draw_set_color(c_black);
 
-draw_text(104, 80, playerHunger)
+draw_text(104, 80, global.playerHunger)
 
 }

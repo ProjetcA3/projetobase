@@ -1,5 +1,5 @@
-numLength = 40;
+numLength = 50;
 numGauge = 0;
 time = 1;
 showtime = time; 
-fomee = obj_player.playerHunger;
+fomee = global.playerHunger;
