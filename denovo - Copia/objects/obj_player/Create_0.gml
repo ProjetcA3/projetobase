@@ -1,5 +1,11 @@
-spd = 4;
+spd = 4 ;
+dir = 0;
+col = spd + 0;
 hspd = 0;
 vspd = 0;
 len = 0;
-dir = 0;
+image_speed = 0;
+playerHunger = 100;
+maxHunger = 100;
+minHunger = 0;
+alarm[0] = room_speed*1; 

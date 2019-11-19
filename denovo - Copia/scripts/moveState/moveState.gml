@@ -16,3 +16,20 @@ vspd = lengthdir_y(len, dir);
 x += hspd;
 y += vspd;
 #endregion
+#region Sprites
+if(vspd == 0) and (hspd == 0){
+sprite_index = player_stand;
+image_speed = 2;
+} 
+
+if(hspd<0){
+sprite_index = player_walk;
+image_speed = sign(len)*1.5;
+} else if(hspd>0){
+sprite_index = player_walk;
+image_speed = sign(len)*1.5;
+}
+
+#endregion
+
+//if(playerHunger == 0) instance_destroy();

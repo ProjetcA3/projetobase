@@ -1,4 +1,4 @@
-personagem = obj_idle
+personagem = obj_player
 if distance_to_object(obj_graveto) <20 and distance_to_object(obj_graveto) <20
 {
 	if keyboard_check_pressed(vk_space) 
@@ -9,7 +9,7 @@ if distance_to_object(obj_graveto) <20 and distance_to_object(obj_graveto) <20
 			{
 				itens_rock =- 1;
 				itens_graveto =- 1 ;
-				instance_create_layer(obj_idle.x,obj_idle.y,"instances",obj_facao)
+				instance_create_layer(obj_player.x,obj_player.y,"instances",obj_facao)
 			}
 		}
 		
