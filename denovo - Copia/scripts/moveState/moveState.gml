@@ -32,4 +32,5 @@ image_speed = sign(len)*1.5;
 
 #endregion
 
-//if(playerHunger == 0) instance_destroy();
+if (global.playerHunger >= 100) global.playerHunger = 100;
+if (global.playerHunger <= 0) global.playerHunger = 0;
