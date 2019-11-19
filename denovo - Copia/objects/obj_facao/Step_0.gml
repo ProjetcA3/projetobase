@@ -18,9 +18,9 @@ if keyboard_check_pressed(ord("E")){
 }
 // comando para fazer o porrete bater e quando não bater e seguir a mira
 facao_na_mao = 0
-if obj_facao.x==obj_idle.x;
+if obj_facao.x==obj_idle.x
 {
-	if  obj_facao.y==obj_idle.y;
+	if  obj_facao.y==obj_idle.y
 	{
 		facao_na_mao = +1
 	}

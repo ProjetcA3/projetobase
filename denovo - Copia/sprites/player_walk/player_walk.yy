@@ -2,7 +2,7 @@
     "id": "9a10f56f-bb07-4a7a-87dd-3056e9024f5f",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_player_andando",
+    "name": "player_walk",
     "For3D": false,
     "HTile": false,
     "VTile": false,
